@@ -1,0 +1,121 @@
+Representacion del conocimiento
+
+La inteligencia artificial 
+
+
+Reglas de inferencia de logica proposicional
+inferencia 
+proceso para obtener una conclusion a partti de unas premidas de modo que el razonamiento sea valido
+regla de inferencia
+ondicione bajo las que puede hacerse una inferencia como el resultado de la misma
+ejemplo
+razonamientoo : (p=< -q) 
+
+Definicionn
+Extiende de la lo
+
+Predicados
+formula relacion(obejto1, objeto2)
+
+	hermana(maria, ana)
+	come(vaca, hierba)
+	regala(juan,flores,maria)
+
+//no ser o estar
+
+
+Cuantificadores
+
+	universal //para todo  ->
+	existencial // existe x por tal y
+
+	Ejemplo:
+		Para todo x (nino) entonces x juega
+		Todos los ninos juegan, en el universo de los objetos. 
+
+		nino(luis)
+		juega(luis)
+
+Existencial
+	nino(x) ^ hijo(x, maria)
+	al menos uno de los ninos es hijo de maria, en el universo (OR)
+
+Razonamineto por particularizacion
+	madre(ana,luis)
+	padre(juan, ana)
+	abuelo
+
+Creacion de oraciones
+
+	Juan esta enfermo
+	Juan sale a jugar
+	enfermo(juan) ^ sale(juan,jugar) 
+
+
+	Maria no esta enferma
+	p1: Maria esta enferma
+	-p1
+
+	En Acapulco nunca cae nieve
+	p1: En Acapulco a veces cae nieve
+	-p1
+
+Ejercicio:
+
+	Un hoyo negro es el intenso y retorcido y retorcido campo gravitacional que queda tras la muerte explosiva de una estrella mas grande que el sol
+
+	hoyo negro es un campo gravitacional intenso y retorcido
+	un hoyo negro es producto de la muerta de una estrella
+
+	estrellas mueren 
+	estrellas mas grandes que el sol provocan un hoyo negro tras su muerte
+
+	estrella mas grande que el sol
+	estrella muerte
+	muerte explosiva
+
+
+	campo_gravitacional(hoyo_negro, intenso, retorcido)
+	explota(estrella, hoyo_negro)
+	tamano(estrella, mayor, sol)
+
+
+Redes semanticas
+
+	NODOS
+		objetos 
+		estados
+		conceptor
+		situaciones
+		atributos
+
+	LIGAS
+		espaciales
+		temporales	
+		posesion
+		Coleccio
+		Accion
+		Causalidad
+		Asignacion
+
+
+
+Tarea para el martes:
+
+Leer el texto y hacer la red semantica
+Representacion logica\de predicado y proposicional //para entregar el amrtes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
