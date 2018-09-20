@@ -24,6 +24,6 @@ rule(arg0,arg1).
 - se puede tomar en cuenta edad y peso
 
 
-Para dentro de dos semanas.
+Para dentro de dos semanas. Tambi´en examen. el 25 de septiembre examen entrega a mas tardar el 27
 
 
